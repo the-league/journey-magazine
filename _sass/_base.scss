@@ -141,68 +141,84 @@ header {
 
 }
 
-article {
-
+.story {
     height: 100%;
+    padding-bottom: 100px;
 
-    section.media {
+    article {
 
-        max-height: 95%;
-        overflow: hidden;
+        height: 100%;
 
-        img {
-            width: 100%;
-            height: auto;
+        section.media {
+
+            background-color: black;
+            max-height: 100%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto;
+                opacity: 0.3;
+            }
+
+            .title {
+
+                position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                z-index: 100;
+
+                margin-left: -25%;
+
+                padding: 5%;
+                padding-top: 2.5%;
+
+                width: 40%;
+
+                margin-bottom: 50px;
+
+                h2 {
+                    margin: 0;
+                    font-family: "Didot", sans-serif;
+                    text-transform: uppercase;
+                    font-weight: 200;
+                    font-size: 70px;
+                    text-align: center;
+                    line-height: 70px;
+                    color: #dadada;
+
+                    border-top: 1px solid #919191;
+                    border-bottom: 1px solid #919191;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+
+            }
+
         }
 
-    }
+        section.copy {
+            padding: 5vw 30vw;
+            background-color: #eeeeee;
 
-    section.copy {
-        padding: 10vw;
-        padding-top: 5vw;
-        background-color: #eeeeee;
+            p + p {
+                margin-top: 50px;
+            }
 
-        p + p {
-            margin-top: 50px;
-        }
-
-        h3 {
-            font-size: 40px;
-        }
-
-        .pull-up {
-            position: relative;
-                top: -425px;
-                left: 50%;
-
-            margin-left: -25%;
-
-            padding: 5%;
-            padding-top: 2.5%;
-
-            width: 40%;
-            height: 400px;
-
-            margin-bottom: 200px;
-
-            background-color: hsla(0, 0%, 93%, 0.75);
-            background-color: hsla(0, 0%, 93%, 1);
-
-            h2 {
-                margin: 0;
-                font-family: "Didot", sans-serif;
-                text-transform: uppercase;
-                font-weight: 200;
-                font-size: 70px;
-                text-align: center;
-                line-height: 70px;
-
-                border-top: 1px solid black;
-                border-bottom: 1px solid black;
-                padding-top: 40px;
-                padding-bottom: 40px;
+            h3 {
+                font-size: 40px;
             }
 
         }
     }
+
+}
+
+footer {
+    position: fixed;
+        bottom: 0;
+        z-index: -1;
+    color: #565656;
+    background-color: #2e2e2e;
+    padding: 5vw 30vw;
 }

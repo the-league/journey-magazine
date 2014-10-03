@@ -8,18 +8,24 @@ body {
     padding: 0;
     background-color: #272727;
     font-family: "Georgia", serif;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 header {
-    position: fixed;
-        top: 0;
-        left: 41%;
-
     padding: 20px 30px 30px;
 
     background-color: #f4f4f4;
 
     z-index: 100;
+
+    position: absolute;
+        top: 0;
+        left: 41%;
+
+    &.fixed {
+        position: fixed;
+    }
 
     h1 {
         font-family: "Didot", serif;
@@ -35,6 +41,7 @@ header {
             text-transform: uppercase;
             letter-spacing: 1px;
             color: hsl(0, 0%, 54%);
+            font-size: 16px;
         }
     }
 }
@@ -50,6 +57,7 @@ header {
         z-index: 0;
 
         overflow: hidden;
+
         width: 50%;
         height: 50%;
 
@@ -131,4 +139,70 @@ header {
 
     }
 
+}
+
+article {
+
+    height: 100%;
+
+    section.media {
+
+        max-height: 95%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    section.copy {
+        padding: 10vw;
+        padding-top: 5vw;
+        background-color: #eeeeee;
+
+        p + p {
+            margin-top: 50px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        .pull-up {
+            position: relative;
+                top: -425px;
+                left: 50%;
+
+            margin-left: -25%;
+
+            padding: 5%;
+            padding-top: 2.5%;
+
+            width: 40%;
+            height: 400px;
+
+            margin-bottom: 200px;
+
+            background-color: hsla(0, 0%, 93%, 0.75);
+            background-color: hsla(0, 0%, 93%, 1);
+
+            h2 {
+                margin: 0;
+                font-family: "Didot", sans-serif;
+                text-transform: uppercase;
+                font-weight: 200;
+                font-size: 70px;
+                text-align: center;
+                line-height: 70px;
+
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+
+        }
+    }
 }

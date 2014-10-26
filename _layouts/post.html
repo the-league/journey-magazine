@@ -11,9 +11,29 @@
 
     <div class="story">
 
-		{{content}}
+  		{{content}}
 
-	</div>
+  	</div>
+
+    <link href="/js/contentbuilder.css" rel="stylesheet" />
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/contentbuilder.js"></script>
+
+    <script>
+
+      $(document).ready(function(){
+
+        console.log('whatup dude');
+
+        $('#contentEditor').contentbuilder({
+          zoom: 0.85,
+          snippetFile: '/js/snippets.html'
+        });
+
+      });
+
+    </script>
 
   </body>
 

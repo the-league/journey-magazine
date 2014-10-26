@@ -27,10 +27,6 @@ date:   2014-10-03 10:52:46
 		know everything.</p>
 		<p class="source">&dash; from the song “Eddie Vedder”.</p>
 
-		<p>So are the words written and performed by the self described ‘Indie Rock’ band, led by electric guitar playing Jacob Kollar. Michael Collette plays drums and Samuel Markusse plays the base.</p>
-
-		<p>Both Michael and Jacob are a part of YWAM Amsterdam. When I ask Jacob why they play Indie Rock, he starts to laugh and says: It’s all I can play. That’s about as deep as it gets.</p>
-
 		<div class="image">
 			<img src="{{site.baseurl}}/media/1.jpg">
 		</div>
@@ -42,6 +38,18 @@ date:   2014-10-03 10:52:46
 		<p class="quote">“It’s the shallowness of peoples desire to make themselves better that irritates me”</p>
 
 		<p class="quote">“We forgot a bunch of stuff we shouldn’t have forgotten”</p>
+
+	</section>
+
+
+	<section class="media">
+
+		<img src="{{site.baseurl}}/media/8.jpg">
+
+	</section>
+
+	<section class="copy">
+
 
 		<h3>How long have you been playing music?</h3>
 		I started to learn popular music on guitar when i was 12. I taught myself to play “under the bridge” by Red Hot Chili Peppers and “Nothing Else Matters” (Metallica). i tried to start a band in highschool but I wasn’t really around the right type of guys. 
